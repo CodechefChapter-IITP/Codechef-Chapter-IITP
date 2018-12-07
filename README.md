@@ -1,6 +1,6 @@
 # Codechef Chapter IIT Panta
 
-This is th official website of codechef chapter of IIT Panta.
+This is the official website of codechef campus chapter - IIT Panta.
 
 ## Contributors:-<br>
 Vatsal Sighal<br>
