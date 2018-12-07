@@ -2,7 +2,7 @@
 
 This is th official website of codechef chapter of IIT Panta.
 
-Contributors:-
-Vatsal Sighal
-Adarsh Chaudary
+Contributors:-<br>
+Vatsal Sighal<br>
+Adarsh Chaudary<br>
 (others please add your name)
