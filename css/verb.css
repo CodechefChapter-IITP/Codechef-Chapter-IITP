@@ -1,4 +1,5 @@
 .typed-container {
+    color: #fff;
     font-weight: bold;
 }
 #verb {
@@ -10,19 +11,19 @@
 }
 
 .develop {
-    color: #ec5f5c;
+    color: lightslategray;
 }
 .code {
-    color: #f8aa44;
+    color: lightgreen;
 }
 .make {
-    color: #202088;;
+    color: lightslategray;
 }
 .invent {
-    color: #3498db;
+    color: lightgreen;
 }
 .question {
-    color: #1abc9c;
+    color: lightcoral;
 }
 
 @media screen and (min-width: 768px) {
