@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Level 1</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/level.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="../level1.html">
+                        Previous Page
+                    </a>
+                </li>
+                <li class="sidebar-brand">
+                    <a href="../../index.html">
+                        Home Page
+                    </a>
+                </li>
+                <li class="sidebar-brand">
+                    <a href="../../ques.html">
+                        Ladders
+                    </a>
+                </li>
+                <li>
+                    <a href="maths.html">Basic Mathematics</a>
+                </li>
+                <li>
+                    <a href="#" style="background: #B5651D;">Searching</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
+            <h1 id="head"><b>Searching</b></h1>
+            <div class="container-fluid">
+            <ul>
+                <li><p>Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored.</p>
+                <p>Search algorithms form an important part of many programs. Some searches involve looking for an entry in a database, such as looking up your record in the IRS database. Other search algorithms trawl through a virtual space, such as those hunting for the best chess moves.</p></li>
+                <li>Based on the type of search operation, these algorithms are generally classified into two categories:
+                <ul>
+                    <li>Sequential Search: In this, the list or array is traversed sequentially and every element is checked. For example: Linear Search.</li>
+                    <li>Interval Search: These algorithms are specifically designed for searching in sorted data-structures. These type of searching algorithms are much more efficient than Linear Search as they repeatedly target the center of the search structure and divide the search space in half. For Example: Binary Search.</li>
+                </ul>
+                </li>
+                <!--<li>A code for it using pure recursion:<pre><code>
+                    int fib (int n) {
+                        if (n &lt 2)
+                            return 1;
+                        return fib(n-1) + fib(n-2);
+                    }</code></pre>
+                </li>
+                <li>Using Dynamic Programming approach with memoization:<pre><code>
+                    void fib () {
+                        fibresult[0] = 1;
+                        fibresult[1] = 1;
+                        for (int i = 2; i &lt n; i++)
+                        fibresult[i] = fibresult[i-1] + fibresult[i-2];
+                    }</code></pre>
+                </li>-->
+                <li>Resources:
+                <ul>
+                    <li><a href="https://www.geeksforgeeks.org/searching-algorithms/" target="_blank">Geeks For Geeks</a></li>
+                    <li><a href="https://www.hackerearth.com/practice/algorithms/searching/linear-search/tutorial/" target="_blank">HackerEarth</a></li>
+                </ul>
+                </li>
+            </ul>
+            </div>
+            <a href="../question/Searching.html" class="btn btn-secondary" id="menu-toggle" target="_blank">Start Solving</a>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+</body>
+</html>

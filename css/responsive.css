@@ -1,16 +1,23 @@
 /* lg */ 
 @media (min-width: 1200px) {
-
+    .collapse{
+    float: left;
+}
 }
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    .collapse{
+    float: left;
+}
 }
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
- 	.navbar-right li a {
+    .collapse{
+    float: left;
+}
+   .navbar-right li a {
 		font-size: 12px;
 		padding-right: 10px;
 	}
@@ -43,9 +50,58 @@
 	body {
 		font-size: 14px;
 	}
-	#home-slider .caption h1 {
-		font-size: 40px;
+    .off {
+        display: none;
+    }
+    .loogo {
+        width: 180px;
+        height: auto;
+    }
+	#home-slider .caption h1 { 
+		font-size: 20px;
+    }
+	#home-slider .caption h1 span{ 
+		font-size: 20px;
 	}
+    #home-slider .caption h2 { 
+		font-size: 22px;
+	}
+    
+    .fork-me_container {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  right: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.fork-me__header {
+  position: absolute;
+  border: 0.5px solid blue;
+  right: -31.75%;
+  top: 15%;
+  width: 100%;
+  background-color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed white;
+  border-left: none;
+  border-right: none;
+  box-shadow: 0px 5px 0px 0px rgba(0,0,0,1),
+    0px -5px 0px 0px rgba(0,0,0,1);
+  transform: rotate(45deg);
+}
+
+.fork-me__text {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 0.6em;
+}
+
+    
 	#home-slider .caption {
 		font-size: 15px;
 		padding: 0 30px;

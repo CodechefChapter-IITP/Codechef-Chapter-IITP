@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Level 1</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/level.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="../level1.html">
+                        Previous Page
+                    </a>
+                </li>
+                <li class="sidebar-brand">
+                    <a href="../../index.html">
+                        Home Page
+                    </a>
+                </li>
+                <li class="sidebar-brand">
+                    <a href="../../ques.html">
+                        Ladders
+                    </a>
+                </li>
+                <li>
+                    <a href="Searching.html">Searching</a>
+                </li>
+                <li>
+                    <a href="#" style="background: #B5651D;">Basic Mathematics</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
+            <h1 id="head"><b>Basic Mathematics</b></h1>
+            <div class="container-fluid">
+            <ul>
+                <li><p>Problems in competitive programming which involve Mathematics are are usually about number theory, or geometry. If you know number theory, that increases your ammo heavily in solving a lot of tougher problems, and helps you in getting a strong hold on a lot of other problems, too.</p>
+                <p>Problems in competitive programming require insight, so just knowing some topics is not enough at all. All of the problems requires more or less math tough. For instance, solving large systems of equations and approximating solutions to differential equations.</p></li>
+                <li>The questions here will be broadly related to the following topics:
+                <ul>
+                    <li>Number Theory</li>
+                    <li>Geometry </li>
+                    <li>Combinatorics</li>
+                </ul>
+                </li>
+                <!--<li>A code for it using pure recursion:<pre><code>
+                    int fib (int n) {
+                        if (n &lt 2)
+                            return 1;
+                        return fib(n-1) + fib(n-2);
+                    }</code></pre>
+                </li>
+                <li>Using Dynamic Programming approach with memoization:<pre><code>
+                    void fib () {
+                        fibresult[0] = 1;
+                        fibresult[1] = 1;
+                        for (int i = 2; i &lt n; i++)
+                        fibresult[i] = fibresult[i-1] + fibresult[i-2];
+                    }</code></pre>
+                </li>-->
+                <li>Resources:
+                <ul>
+                    <li><a href="https://www.geeksforgeeks.org/mathematical-algorithms/" target="_blank">Geeks For Geeks (Mathematical algorithms)</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/geometric-algorithms/" target="_blank">Geeks For Geeks (Geometrical algorithms)</a></li>
+                    <li><a href="https://www.codechef.com/wiki/tutorial-number-theory/" target="_blank">Codechef</a></li>
+                    <li><a href="https://www.hackerearth.com/practice/notes/number-theory-1/" target="_blank">Hackerearth</a></li>
+                </ul>
+                </li>
+            </ul>
+            </div>
+            <a href="../question/maths.html" class="btn btn-secondary" id="menu-toggle" target="_blank">Start Solving</a>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Level 1</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/level.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="../level3.html">
+                        Previous Page
+                    </a>
+                </li>
+                <li class="sidebar-brand">
+                    <a href="../../index.html">
+                        Home Page
+                    </a>
+                </li>
+                <li class="sidebar-brand">
+                    <a href="../../ques.html">
+                        Ladders
+                    </a>
+                </li>
+                <li>
+                    <a href="dp.html">Dynamic Programming</a>
+                </li>
+                <li>
+                    <a href="#" style="background: #B5651D;">Data structures & STL (Standard Template Library)</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
+            <h1 id="head"><b>Data structures </b></h1>
+            <div class="container-fluid">
+            <ul>
+                <li><p>The efficiency of an algorithm sometimes depends on using an efficient data structure. A good choice of data structure can reduce the execution time of an algorithm.Data Structure is a way of collecting and organising data in such a way that we can perform operations on these data in an effective way. Data Structures is about rendering data elements in terms of some relationship, for better organization and storage.</p>
+                </li>
+                <li>Some famous Data Structures are:
+                <ul>
+                    <li>Array</li>
+                    <li>Linked List</li>
+                    <li>Stack</li>
+                    <li>Queue</li>
+                    <li>Binary Tree</li>
+                    <li>Binary Search Tree</li>
+                    <li>Heap</li>
+                    <li>Hashing</li>
+                    <li>Graph</li>
+                    <li>Disjoint sets</li>
+                    <li>Segment Trees</li>
+                </ul>
+                </li>
+                <!--<li>A code for it using pure recursion:<pre><code>
+                    int fib (int n) {
+                        if (n &lt 2)
+                            return 1;
+                        return fib(n-1) + fib(n-2);
+                    }</code></pre>
+                </li>
+                <li>Using Dynamic Programming approach with memoization:<pre><code>
+                    void fib () {
+                        fibresult[0] = 1;
+                        fibresult[1] = 1;
+                        for (int i = 2; i &lt n; i++)
+                        fibresult[i] = fibresult[i-1] + fibresult[i-2];
+                    }</code></pre>
+                </li>-->
+                <li>Resources:
+                <ul>
+                    <li><a href="https://www.geeksforgeeks.org/the-c-standard-template-library-stl/" target="_blank">Geeks For Geeks (Standard Template Library)</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/data-structures/" target="_blank">Geeks For Geeks (Data Structures)</a></li>
+                </ul>
+                </li>
+            </ul>
+            </div>
+            <div class="container-fluid">
+            <ul>
+              <h1 id="head"><b>STL (Standard Template Library)</b></h1>
+                <li>
+                <p>The Standard Template Library (STL) is a set of C++ template classes to provide common programming data structures and functions such as lists, stacks, arrays, etc. It is a library of container classes, algorithms and iterators. It is a generalized library and so, its components are parameterized. A working knowledge of template classes is a prerequisite  for working with STL.</p></li>
+
+                <li>STL has four components:
+                <ul>
+                    <li>Algorithms</li>
+                    <li>Containers </li>
+                    <li>Functions</li>
+                    <li>Iterators</li>
+                </ul>
+                </li>
+                <!--<li>A code for it using pure recursion:<pre><code>
+                    int fib (int n) {
+                        if (n &lt 2)
+                            return 1;
+                        return fib(n-1) + fib(n-2);
+                    }</code></pre>
+                </li>
+                <li>Using Dynamic Programming approach with memoization:<pre><code>
+                    void fib () {
+                        fibresult[0] = 1;
+                        fibresult[1] = 1;
+                        for (int i = 2; i &lt n; i++)
+                        fibresult[i] = fibresult[i-1] + fibresult[i-2];
+                    }</code></pre>
+                </li>-->
+                <li>Resources:
+                <ul>
+                    <li><a href="https://www.geeksforgeeks.org/the-c-standard-template-library-stl/" target="_blank">Geeks For Geeks (Standard Template Library)</a></li>
+                    <li><a href="https://www.hackerearth.com/practice/notes/standard-template-library/" target="_blank">HackerEarth</a></li>
+                </ul>
+                </li>
+            </ul>
+            </div>
+            <a href="../question/dsstl.html" class="btn btn-secondary" id="menu-toggle" target="_blank">Start Solving</a>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+</body>
+</html>

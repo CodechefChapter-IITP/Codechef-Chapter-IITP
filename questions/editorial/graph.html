@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Level 1</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/level.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="../level4.html">
+                        Previous Page
+                    </a>
+                </li>
+                <li class="sidebar-brand">
+                    <a href="../../index.html">
+                        Home Page
+                    </a>
+                </li>
+                <li class="sidebar-brand">
+                    <a href="../../ques.html">
+                        Ladders
+                    </a>
+                </li>
+                <li>
+                    <a href="string.html">Strings</a>
+                </li>
+                <li>
+                    <a href="#" style="background: #B5651D;">Graph</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
+            <h1 id="head"><b>Graph</b></h1>
+            <div class="container-fluid">
+            <ul>
+                <li><p>A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges. It can be visualized by using the following two basic components:</p>
+                  <ul>
+                      <li><p>Nodes: These are the most important components in any graph. Nodes are entities whose relationships are expressed using edges. If a graph comprises 2 nodes  and  and an undirected edge between them, then it expresses a bi-directional relationship between the nodes and edge.</p></li>
+                      <li><p>Edges: Edges are the components that are used to represent the relationships between various nodes in a graph. An edge between two nodes expresses a one-way or two-way relationship between the nodes.</p></li>
+                  </ul>
+                </li>
+                <li>Some famous Graph algorithms are:
+                <ul>
+                    <li>Dijkstra's Shortest Path Algorithm.</li>
+                    <li>Bellman-Ford for shortest path routing in networks.</li>
+                    <li>Huffman Coding.</li>
+                    <li>Kruskal's Minimum Spanning Tree Algorithm.</li>
+                </ul>
+                </li>
+                <!--<li>A code for it using pure recursion:<pre><code>
+                    int fib (int n) {
+                        if (n &lt 2)
+                            return 1;
+                        return fib(n-1) + fib(n-2);
+                    }</code></pre>
+                </li>
+                <li>Using Dynamic Programming approach with memoization:<pre><code>
+                    void fib () {
+                        fibresult[0] = 1;
+                        fibresult[1] = 1;
+                        for (int i = 2; i &lt n; i++)
+                        fibresult[i] = fibresult[i-1] + fibresult[i-2];
+                    }</code></pre>
+                </li>-->
+                <li>Resources:
+                <ul>
+                    <li><a href="https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/" target="_blank">Geeks For Geeks</a></li>
+                    <li><a href="https://www.codechef.com/wiki/tutorial-graph-theory-part-1" target="_blank">Codechef</a></li>
+                    <li><a href="https://www.hackerearth.com/practice/algorithms/graphs/graph-representation/tutorial/">Hackerearth</a></li>
+                </ul>
+                </li>
+            </ul>
+            </div>
+            <a href="../question/graph.html" class="btn btn-secondary" id="menu-toggle" target="_blank">Start Solving</a>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+</body>
+</html>

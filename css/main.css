@@ -36,6 +36,17 @@ h3 {
     font-size: 60px;
 }
 
+.shad {
+  padding-bottom: 20px;
+  background: #9C7248;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.shad:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
 .parallax {
   background-size: cover;
   background-repeat: no-repeat;
@@ -130,6 +141,43 @@ section {
 }
 
 
+/*Team ribbon*/
+
+.fork-me_container {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  right: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.fork-me__header {
+  position: absolute;
+  border: 1px solid blue;
+  right: -31.75%;
+  top: 15%;
+  width: 100%;
+  background-color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed white;
+  border-left: none;
+  border-right: none;
+  box-shadow: 0px 5px 0px 0px rgba(0,0,0,1),
+    0px -5px 0px 0px rgba(0,0,0,1);
+  transform: rotate(45deg);
+}
+
+.fork-me__text {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+}
+ 
+
 /*************************
 ********Home CSS**********
 **************************/
@@ -140,20 +188,34 @@ section {
 
 #home-slider .caption {
   position: absolute;
-  top: 50%;
+  top: 30%;
   margin-top: -104px;
   left: 0;
   right: 0;
   text-align: center;
-  text-transform: uppercase;
   z-index: 15;
   font-size: 18px;
   font-weight: 300;
   color: #fff;
 }
 
+#home-slider .caption h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
 #home-slider .caption h1 {
-  color: #fff;
+  font-family: 'fragola';
+  color: #BDA782;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#home-slider .caption h1 span {
+  font-family: 'fox grotesque black';
+  color: #f4eddd;
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 30px;

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Level 1</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/level.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="../level2.html">
+                        Previous Page
+                    </a>
+                </li>
+                <li class="sidebar-brand">
+                    <a href="../../index.html">
+                        Home Page
+                    </a>
+                </li>
+                <li class="sidebar-brand">
+                    <a href="../../ques.html">
+                        Ladders
+                    </a>
+                </li>
+                <li>
+                    <a href="sorting.html">Sorting</a>
+                </li>
+                <li>
+                    <a href="#" style="background: #B5651D;">Greedy</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
+            <h1 id="head"><b>Greedy</b></h1>
+            <div class="container-fluid">
+            <ul>
+                <li><p>A greedy algorithm, as the name suggests, always makes the choice that seems to be the best at that moment. We build up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit. </p>This means that it makes a locally-optimal choice in the hope that this choice will lead to a globally-optimal solution. So the problems where choosing locally optimal also leads to global solution are best fit for Greedy.  <p>
+                </p> </li>
+                <li>Some famous Greedy algorithms are:
+                <ul>
+                    <li>Activity Selection Problem</li>
+                    <li>Huffman Coding</li>
+                    <li>Kruskal’s Minimum Spanning Tree</li>
+                    <li>Fractional Knapsack Problem</li>
+                </ul>
+                </li>
+                <!--<li>A code for it using pure recursion:<pre><code>
+                    int fib (int n) {
+                        if (n &lt 2)
+                            return 1;
+                        return fib(n-1) + fib(n-2);
+                    }</code></pre>
+                </li>
+                <li>Using Dynamic Programming approach with memoization:<pre><code>
+                    void fib () {
+                        fibresult[0] = 1;
+                        fibresult[1] = 1;
+                        for (int i = 2; i &lt n; i++)
+                        fibresult[i] = fibresult[i-1] + fibresult[i-2];
+                    }</code></pre>
+                </li>-->
+                <li>Resources:
+                <ul>
+                    <li><a href="https://www.geeksforgeeks.org/greedy-algorithms/" target="_blank">Geeks For Geeks</a></li>
+                    <li><a href="https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/" target="_blank">Hackerearth</a></li>
+                </ul>
+                </li>
+            </ul>
+            </div>
+            <a href="../question/greedy.html" class="btn btn-secondary" id="menu-toggle" target="_blank">Start Solving</a>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+</body>
+</html>
